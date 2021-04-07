@@ -1,0 +1,37 @@
+
+table
+            {
+                border-collapse: collapse; /*on fusionne les bordures internes du tableau*/
+                border: 3px solid #000000; /*création de la bordure externe du tableau/
+                Rq: On peut mettre plusieurs valeurs sur la même ligne*/
+            }
+        
+tr,td,th/*le contenu des cellules th est automatiquement en gras/
+Rq: on applique le style au 3 balises grâce aux virgules*/
+            {
+                border: 1px solid #000000;/*crétion des bordures des cellules du tableau*/
+                font-style:normal;
+            }
+
+.gris /*on applique la couleur de fond de certaines cellules en gris*/
+            {
+                background-color: rgb(163, 163, 163);
+            }
+.vert
+            {
+                background-color: rgb(178, 245, 178);
+                text-align: center; /*alignement du texte au centre*/
+            }
+.rouge
+            {
+                background-color: rgb(250, 89, 83);
+                text-align: center;
+            }
+.centre
+            {
+                text-align: center;
+            }
+
+.right      {
+                text-align: right;
+            }
